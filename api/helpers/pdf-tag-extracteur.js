@@ -36,6 +36,7 @@ module.exports = {
 
       // create empty data
       let rdsInfo = {
+        pdf: pdfFile,
         nombreSignature: null,
         nom: null,
         description: null,

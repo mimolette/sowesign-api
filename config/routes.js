@@ -27,7 +27,8 @@ module.exports.routes = {
   '/': {
     view: 'pages/homepage'
   },
-  'POST /pdf/upload': 'pdf/upload'
+  'POST /pdf/upload': 'pdf/upload',
+  'POST /rds/create': 'rds/create',
 
   /***************************************************************************
   *                                                                          *
